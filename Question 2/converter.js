@@ -4,7 +4,7 @@ const to = document.querySelector("#to")
 const ip = document.querySelector("#ip")
 let finalans= document.querySelector("#finalans")
 
-    fetch("https://v6.exchangerate-api.com/v6/36defd8baed25a7bbda78b26/latest/USD")
+    fetch("https://v6.exchangerate-api.com/v6//latest/USD")
     .then((response)=>response.json())
     .then((value)=>{console.log(value)
 

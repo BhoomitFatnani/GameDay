@@ -1,0 +1,34 @@
+<!-- You need to create a Student Ranking Dashboard where a list of students with their scores is displayed. Users should be able to sort the list by the highest score and also search for a specific student by name.
+
+Features to Implement:
+
+Display a Table/List of Students.
+Each student should have a name and a score.
+Example: Name Score Alice 85 Bob 92 Charlie 78
+
+Sorting by Score (Descending Order)
+
+Add a "Sort by Score" button. When clicked, students should be sorted from highest to lowest score.
+Search Filter for Student Name
+
+Add an input box where users can type a student’s name. Filter the list to only show matching students as the user types.
+User Friendly UI is must -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"defer></script>
+</head>
+<body>
+    <input type="text" id="ip" onkeyup="Suggest()"> <button id="search">Enter</button>
+    <ul id="searchedName">
+        
+    </ul>
+    <ul id="list"></ul>
+    <button id="btn">Sort</button>
+    <ul id="sortedlist"></ul>
+</body>
+</html>

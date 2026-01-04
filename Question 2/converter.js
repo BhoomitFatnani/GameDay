@@ -40,7 +40,7 @@ function conversionRate(){
     let val2 =to.value
     console.log(val1,val2)
 
-    fetch(" https://v6.exchangerate-api.com/v6/36defd8baed25a7bbda78b26/pair/"+val1+"/"+val2)
+    fetch(" https://v6.exchangerate-api.com/v6//pair/"+val1+"/"+val2)
     .then((response)=>response.json()
 
     .then((value)=> {console.log(value)
